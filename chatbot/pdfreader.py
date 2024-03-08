@@ -1,5 +1,5 @@
 import streamlit as st
-from langchain_community.document_loaders import PyMuPDFLoader
+from langchain.document_loaders import PyMuPDFLoader
 from streamlit_chat import message
 import tempfile
 from llm import Loadllm
